@@ -62,5 +62,6 @@ function alpine_scripts()
 {
 	wp_enqueue_style('alpine-style', get_template_directory_uri() . '/style.css');
 	wp_enqueue_style('alpine-style-client', get_template_directory_uri() . '/dist/css/client.bundle.css');
+	wp_enqueue_style('alpine-style-client-theme', get_template_directory_uri() . '/theme.css');
 }
 add_action('wp_enqueue_scripts', 'alpine_scripts');

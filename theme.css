@@ -1,0 +1,43 @@
+/* :root {
+  --color-black: black;
+  --color-white: white;
+  --color-primary: pink;
+  --color-primary-dark: #ffa1b1;
+  --color-border: var(--color-primary);
+}
+
+.button,
+button,
+input[type=submit] {
+  --color-primary: green;
+  --color-primary-dark: rgb(0, 78, 0);
+  --color-border: var(--color-primary);
+}
+
+input[type=search] {
+  --color-primary: green;
+  --color-border: var(--color-primary);
+}
+
+ul a {
+  --color-primary: orange;
+}
+
+.site-header {
+  box-shadow: var(--box-shadow-s);
+}
+
+.site-header,
+.main-navigation ul a {
+  --color-primary: cyan;
+  --color-border: var(--color-primary);
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  --color-primary: purple;
+} */

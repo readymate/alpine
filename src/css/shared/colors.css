@@ -2,6 +2,8 @@
   --color-black: black;
   --color-white: white;
   --color-primary: blue;
-  --color-primary-dark: #ffa1b1;
+  --color-primary-dark: #000096;
   --color-border: var(--color-primary);
+  --box-shadow-none: none;
+  --box-shadow-s: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
