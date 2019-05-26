@@ -6,12 +6,12 @@
 a,
 a:visited {
   text-decoration: none;
-  color: #186FEA;
+  color: var(--color-primary);
   transition: all .2s ease-in-out;
 }
 
 a:hover {
   text-decoration: none;
-  color: #333;
+  color: var(--color-black);
   transition: all .2s ease-in-out;
 }

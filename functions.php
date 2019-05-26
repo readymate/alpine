@@ -61,6 +61,6 @@ add_action('widgets_init', 'alpine_widgets_init');
 function alpine_scripts()
 {
 	wp_enqueue_style('alpine-style', get_template_directory_uri() . '/style.css');
-	wp_enqueue_style('alpine-style-client', get_template_directory_uri() . '/bundle/css/client.bundle.css');
+	wp_enqueue_style('alpine-style-client', get_template_directory_uri() . '/dist/css/client.bundle.css');
 }
 add_action('wp_enqueue_scripts', 'alpine_scripts');

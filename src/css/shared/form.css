@@ -27,7 +27,7 @@ input[type="datetime"],
 input[type="datetime-local"],
 input[type="color"],
 textarea {
-  color: #333;
+  color: var(--color-black);
   padding: 0.5rem;
 }
 
@@ -53,7 +53,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border);
   border-radius: 4px;
 }
 
@@ -73,7 +73,7 @@ input[type="datetime"]:focus,
 input[type="datetime-local"]:focus,
 input[type="color"]:focus,
 textarea:focus {
-  color: darkblue;
+  color: var(--color-primary-dark);
 }
 
 textarea {

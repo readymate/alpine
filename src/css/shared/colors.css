@@ -1,3 +1,7 @@
 :root {
-  --color-black: rgb(0, 0, 0);
+  --color-black: black;
+  --color-white: white;
+  --color-primary: blue;
+  --color-primary-dark: #ffa1b1;
+  --color-border: var(--color-primary);
 }

@@ -32,12 +32,10 @@
     },
     "scripts": {
         "clean": "rimraf dist",
-        "copy": "./scripts/copy-bundle.sh",
-        "version-css": "node ./scripts/version-style-css.js",
+        "version:style": "node ./scripts/version-style-css.js",
         "prebuild": "yarn clean",
         "build": "webpack -p --config ./config/webpack/webpack.config.js --display-error-details",
-        "postbuild": "yarn copy",
         "watch": "webpack -d --watch --config ./config/webpack/webpack.config.js --display-error-details",
-        "version": "yarn version-css; git add ."
+        "version": "yarn version:style; git add ."
     }
 }
