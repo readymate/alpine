@@ -1,0 +1,33 @@
+/**
+ *
+ * Widget Search
+ */
+
+.widget_search form {
+  display: flex;
+}
+
+.widget_search label {
+  line-height: 1;
+}
+
+.widget_search label input {
+  position: relative;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  flex: 1 0 100%;
+  z-index: 2;
+}
+
+.widget_search input[type=submit] {
+  position: relative;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  flex: 1 0 100px;
+  margin-left: -1px;
+  z-index: 1;
+}
+
+.widget_search input[type=submit]:focus {
+  z-index: 3;
+}

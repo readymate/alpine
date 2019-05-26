@@ -1,0 +1,19 @@
+/**
+ *
+ * WordPress Admin Bar
+ */
+
+@media (max-width: 782px) {
+  #wpadminbar .ab-icon {
+    font: 40px/1 dashicons !important;
+  }
+}
+
+@media (min-width: 783px) {
+  #wpadminbar .ab-icon,
+  #wpadminbar .ab-item:before,
+  #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon,
+  .wp-admin-bar-arrow {
+    font: normal 20px/1 dashicons;
+  }
+}

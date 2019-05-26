@@ -1,0 +1,17 @@
+/**
+ *
+ * Links
+ */
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #186FEA;
+  transition: all .2s ease-in-out;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #333;
+  transition: all .2s ease-in-out;
+}

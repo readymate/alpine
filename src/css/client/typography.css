@@ -1,0 +1,83 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+table,
+address,
+hr,
+pre,
+img,
+figcaption,
+label,
+input,
+.widget {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+h5 {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+  line-height: 2rem;
+}
+
+ul ul,
+ol ol,
+dl dl {
+  margin-bottom: 0;
+}
+
+li {
+  margin-left: 1.1rem;
+}
+
+big {
+  font-size: 1.5rem;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+pre,
+code,
+kbd,
+tt,
+var {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  letter-spacing: -0.05rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  line-height: 1;
+}

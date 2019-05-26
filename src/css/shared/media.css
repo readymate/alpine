@@ -1,0 +1,14 @@
+figure {
+  max-width: 100%;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.75rem;
+  text-align: center;
+}

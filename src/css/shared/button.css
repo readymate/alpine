@@ -1,0 +1,27 @@
+/**
+ *
+ * Buttons
+ */
+
+button,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  background: #186FEA;
+  border-color: #186FEA;
+  color: #fff;
+  transition: all .2s ease-in-out;
+}
+
+button:hover,
+.button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background: #114ca0;
+  border-color: #114ca0;
+  color: #fff;
+  transition: all .2s ease-in-out;
+}

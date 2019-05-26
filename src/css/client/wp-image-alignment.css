@@ -1,0 +1,19 @@
+/**
+ *
+ * WordPress Image Alignment
+ */
+
+.aligncenter {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.alignleft {
+  margin-left: unset !important;
+  margin-right: auto !important;
+}
+
+.alignright {
+  margin-left: auto !important;
+  margin-right: unset !important;
+}
