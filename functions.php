@@ -65,3 +65,12 @@ function alpine_scripts()
 	wp_enqueue_style('alpine-style-client-theme', get_template_directory_uri() . '/theme.css');
 }
 add_action('wp_enqueue_scripts', 'alpine_scripts');
+
+function alpine_template($name, $part = null)
+{
+	do_action("before_header_{$name}");
+	get_template_part("templates/{$name}", $part);
+	do_action("after_header_{$name}");
+}
+
+require get_template_directory() . '/settings/theme-settings.php';

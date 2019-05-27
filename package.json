@@ -1,6 +1,6 @@
 {
     "name": "alpine",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "A WordPress starter theme",
     "main": "dist/index.js",
     "repository": "git@github.com:readymate/alpine.git",

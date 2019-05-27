@@ -7,4 +7,15 @@
 @import "widget-search";
 @import "widget-tag-cloud";
 @import "../shared/index";
+@import "header";
+@import "header--flat";
+@import "header--stacked";
+@import "footer";
+@import "footer--flat";
+@import "footer--flat-center";
+@import "footer--flat-right";
+@import "footer--flat-space-between";
+@import "footer--stacked";
+@import "footer--stacked-center";
+@import "footer--stacked-right";
 @import "layout-content-sidebar";

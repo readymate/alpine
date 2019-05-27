@@ -1,0 +1,65 @@
+/**
+ *
+ * Layout
+ */
+
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: 1px solid var(--color-border);
+  z-index: 3200;
+}
+
+@media(min-width: 960px) {
+  .header h1 a {
+    color: var(--color-black);
+  }
+  .main-navigation ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .main-navigation li {
+    position: relative;
+  }
+  .main-navigation ul .children {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    z-index: 3600;
+    background: var(--color-white);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: unset;
+  }
+  .main-navigation ul .children li a {
+    white-space: nowrap;
+  }
+  .page_item_has_children:hover>.children {
+    display: block;
+  }
+  .main-navigation ul .children li {
+    width: 100%;
+    margin-left: 0;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .main-navigation ul .children .children {
+    position: absolute;
+    top: 0;
+    left: 100%;
+  }
+}
+
+.admin-bar .main-navigation {
+  top: 46px;
+}
+
+@media(min-width: 783px) {
+  .admin-bar .main-navigation {
+    top: 32px;
+  }
+}

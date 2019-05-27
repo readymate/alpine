@@ -1,0 +1,19 @@
+/**
+ *
+ * Layout
+ */
+
+@media(min-width: 960px) {
+  .header--flat {
+    display: flex;
+  }
+  .header--flat h1,
+  .header--flat ul {
+    font-size: 18px;
+    line-height: 2rem;
+    margin-bottom: 0;
+  }
+  .header--flat-space-between {
+    justify-content: space-between;
+  }
+}

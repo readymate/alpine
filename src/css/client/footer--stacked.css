@@ -1,0 +1,4 @@
+.footer--stacked {
+  display: flex;
+  flex-direction: column;
+}

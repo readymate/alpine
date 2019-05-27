@@ -1,0 +1,42 @@
+/**
+ *
+ * Layout
+ */
+
+@media(min-width: 960px) {
+  .header--stacked {
+    display: flex;
+    flex-direction: column;
+  }
+  .header--stacked h1,
+  .header--stacked ul {
+    margin-bottom: 0;
+  }
+  .header--stacked .main-navigation>.menu>ul {
+    padding-top: 1rem;
+  }
+  .header--stacked .main-navigation>.menu>ul>li {
+    margin-left: 0;
+    margin-right: 1.1rem;
+  }
+  .header--stacked-center {
+    justify-content: center;
+    text-align: center;
+  }
+  .header--stacked-center .main-navigation>.menu>ul {
+    display: flex;
+    justify-content: center;
+  }
+  .header--stacked-right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  .header--stacked-right .main-navigation>.menu>ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header--stacked .main-navigation>.menu>ul>li {
+    margin-right: 0;
+    margin-left: 1.1rem;
+  }
+}
